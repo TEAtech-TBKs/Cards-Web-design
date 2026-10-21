@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    >
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main>
+
+        
+<!-- Course Section: requires Font Awesome and the CSS variables/classes in course-section.css -->
+<!-- Courses Section -->
+        <section
+            class="course"
+            id="courses"
+            aria-labelledby="courses-heading"
+        >
+
+        <div class="section-container">
+            <div class="explore">
+                <p class="section-eyebrow">
+                    <span aria-hidden="true">—</span>
+                    Our Courses
+                </p>
+                <h2 id="courses-heading">
+                    Explore Our
+                    <span class="e-highlight">Courses</span>
+                </h2>
+                <p>
+                    Choose from a range of practical courses
+                    designed to equip you with in-demand skills
+                    for the digital world.
+                </p>
+            </div>
+
+            <!-- style search ui properly -->
+            <div class="search">
+                <input
+                    type="text"
+                    id="search-input"
+                    placeholder="Search courses..."
+                    aria-label="Search courses"
+                >
+                <button id="search-button" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"
+                    aria-hidden="true"></i>
+                </button>
+                <select name="categories" id="categories">
+                    <option value="">All Categories</option>
+                    <option value="it-infrastructure">IT Infrastructure</option>
+                    <option value="software-development">Software Development</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="data-and-analytics">Data and Analytics</option>
+                    <option value="creative-technology">Creative Technology</option>
+                    <option value="marketing-and-business">Marketing and Business</option>
+                    <option value="engineering-and-design">Engineering and Design</option>
+                    <option value="office-productivity">Office Productivity</option>
+                    <option value="project-management">Project Management</option>
+                </select>
+
+            </div>
+
+            <div class="cards">
+
+<!-- Course 1: Cybersecurity -->
+    <article class="card c1">
+        <img
+            src="./images/cybersecurity.png"
+            alt="Cybersecurity training and digital security"
+            loading="lazy"
+        >
+
+        <div class="card-content">
+            <p class="course-category">Information Security</p>
+
+            <h3>Cybersecurity</h3>
+
+            <p class="description">
+                Learn how to protect computers, networks, and sensitive
+                information from cyber threats. Explore security
+                fundamentals, common attacks, risk awareness, and
+                practical ways to strengthen digital safety.
+            </p>
+
+            <a class="course-link" href="#contact">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </article>
+
+    
+    <!-- Course 2: Web Development -->
+    <article class="card c2">
+        <img
+            src="./images/webdev.png"
+            alt="Web development and website creation"
+            loading="lazy"
+        >
+
+        <div class="card-content">
+            <p class="course-category">Software Development</p>
+
+            <h3>Web Development</h3>
+
+            <p class="description">
+                Learn to design and build responsive websites using
+                HTML, CSS, and JavaScript. Develop practical skills in
+                website structure, styling, interactivity, and creating
+                user-friendly experiences across different devices.
+            </p>
+
+            <a class="course-link" href="#contact">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </article>
+
+              
+    <!-- Course 3: Data Analytics -->
+    <article class="card c3">
+        <img
+            src="./images/promanagement.png"
+            alt="Data analysis and insights"
+            loading="lazy"
+        >
+
+        <div class="card-content">
+            <p class="course-category">Data and Analytics</p>
+
+            <h3>Data Analytics</h3>
+
+            <p class="description">
+                Learn to collect, organize, analyse, and interpret data
+                to uncover patterns and support better decisions.
+                Build an understanding of data visualization, reporting,
+                and turning raw information into useful insights.
+            </p>
+
+            <a class="course-link" href="#contact">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </article>
+
+               
+<!-- Course 4: Graphic Design -->
+<article class="card c4">
+    <img
+        src="./images/graphic-design.png"
+        alt="Graphic design and visual communication"
+        loading="lazy"
+    >
+
+    <div class="card-content">
+        <p class="course-category">Creative Technology</p>
+
+        <h3>Graphic Design</h3>
+
+        <p class="description">
+            Develop your creativity and visual communication skills
+            through colour theory, typography, layout, and image
+            composition. Learn to create engaging designs for
+            branding, social media, marketing, and print materials.
+        </p>
+
+        <a class="course-link" href="#contact">
+            Learn More
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+    </div>
+</article>
+
+
+    <!-- Course 5: Computer Networking -->
+    <article class="card c5">
+        <img
+            src="./images/networking.png"
+            alt="Computer networking and connected devices"
+            loading="lazy"
+        >
+
+        <div class="card-content">
+            <p class="course-category">IT Infrastructure</p>
+
+            <h3>Computer Networking</h3>
+
+            <p class="description">
+                Understand how computers and devices communicate over
+                networks. Learn networking fundamentals, IP addressing,
+                network devices, connectivity, and troubleshooting
+                techniques that support reliable digital communication.
+            </p>
+
+            <a class="course-link" href="#contact">
+                Learn More
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+        </div>
+    </article>
+      <!-- course 6 -->
+                <article class="card c6">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="DevOps course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            IT Infrastructure
+                        </p>
+                        <h3>DevOps</h3>
+                        <p class="description">
+                            
+                            Learn how development and operations teams work together to build, test, release, and maintain software. Explore automation, version control, continuous integration, and deployment workflows.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- course  7 -->
+                <article class="card c7">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Marketing and Business
+                        </p>
+                        <h3>Digital Marketing</h3>
+                        <p class="description">
+                            
+                            Learn how to reach and engage online audiences through content strategy, search engine optimization, social media, email campaigns, and digital advertising. Use analytics to measure results and improve campaigns.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- course 8 -->
+                <article class="card c8">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Building Information Modelling course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Engineering and Design
+                        </p>
+                        <h3>Building Information Modelling(BIM)</h3>
+                        <p class="description">
+                            
+                            Explore how Building Information Modelling (BIM) supports the planning, design, and coordination of construction projects. Learn how digital building models help teams visualize information and collaborate more effectively.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- course 9 -->
+                <article class="card c9">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Engineering and Design
+                        </p>
+                        <h3>Computer Aided Design</h3>
+                        <p class="description">
+                            
+                            Develop a foundation in computer-aided design (CAD), using digital tools to create, edit, and interpret technical drawings and design models for engineering, architecture, and manufacturing.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- course 10 -->
+                <article class="card c10">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Software Development
+                        </p>
+                        <h3>Programming Fundamentals</h3>
+                        <p class="description">
+                            
+                            Build a strong programming foundation by learning variables, data types, operators, conditionals, loops, functions, and basic problem-solving. Practise turning step-by-step logic into working code.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- course 11 -->
+                <article class="card c11">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Office Productivity
+                        </p>
+                        <h3>Microsoft office</h3>
+                        <p class="description">
+                            
+                            Build practical workplace skills with Microsoft Word, Excel, PowerPoint, and other commonly used Office tools. Create polished documents, organize and analyse spreadsheet data, and deliver clear presentations.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <!-- course 12 -->
+                <article class="card c12">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Data and Analytics
+                        </p>
+                        <h3>Data science</h3>
+                        <p class="description">
+                            
+                            Discover how data science combines statistics, programming, data preparation, and visualization to answer questions and uncover patterns. Get an introduction to analytical thinking and machine-learning concepts.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="card c5">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Project Management
+                        </p>
+                        <h3>Project Management</h3>
+                        <p class="description">
+                            
+                            Learn how to define project goals, plan timelines, allocate resources, manage risks, track progress, and communicate with stakeholders. Explore practical methods for delivering projects in an organized, measurable way.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="card c5">
+                    <img
+                        src="./images/cybersecurity.png"
+                        alt="Computer networking course"
+                        loading="lazy"
+                    >
+                    <div class="card-content">
+                        <p class="course-category">
+                            Software Development
+                        </p>
+                        <h3>Software Development</h3>
+                        <p class="description">
+                            
+                            Understand the software development lifecycle, from requirements and planning to design, coding, testing, debugging, deployment, and maintenance. Build a foundation for creating reliable software solutions.
+                        
+                        </p>
+                        <a class="course-link" href="#contact">
+                            Learn More
+                            <i class="fa-solid fa-arrow-right"
+                               aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+
+            <p id="error-message" hidden>
+                No courses match your search. Try another keyword or category.
+            </p>
+        </div>
+        </section>
+
+
+    </main>
+</body>
+</html>
