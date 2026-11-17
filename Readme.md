@@ -1,1 +1,1 @@
-## Course card web desig
+## Course card web design
